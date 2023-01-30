@@ -6,34 +6,28 @@
 {
 }
 
--(double)iOS_Vibrate_Peek
+-(double)VibrateWeak
 {     
-    AudioServicesPlaySystemSound(1519); //kSystemSoundID_Vibrate
+    AudioServicesPlaySystemSound(1519);
     return 1.0;
 }
 
--(double)iOS_Vibrate_Pop
+-(double)VibrateStrong
 {     
     AudioServicesPlaySystemSound(1520);
     return 1.0;
 }
 
--(double)iOS_Vibrate_Double
+-(double)VibrateDouble
 {     
     AudioServicesPlaySystemSound(1011);
     return 1.0;
 }
 
 
--(double)iOS_Vibrate_Triple
+-(double)VibrateTriple
 {     
     AudioServicesPlaySystemSound(1521);
-    return 1.0;
-}
-
--(double)iOS_Vibrate_Custom:(double)vibeid;
-{     
-    AudioServicesPlaySystemSound(vibeid);
     return 1.0;
 }
 
