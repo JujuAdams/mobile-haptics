@@ -1,7 +1,7 @@
 {
   "resourceType": "GMExtension",
   "resourceVersion": "1.2",
-  "name": "AndroidVibrate",
+  "name": "AndroidVibrateExt",
   "optionsFile": "options.json",
   "options": [],
   "exportToGame": true,
