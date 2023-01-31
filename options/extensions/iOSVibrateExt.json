@@ -1,0 +1,9 @@
+{
+  "extensionId": {
+    "name": "iOSVibrateExt",
+    "path": "extensions/iOSVibrateExt/iOSVibrateExt.yy"
+  },
+  "resourceVersion": "1.0",
+  "resourceType": "GMExtensionConfigSet",
+  "configurables": null
+}
