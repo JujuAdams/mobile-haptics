@@ -4,7 +4,10 @@ import ${YYAndroidPackageName}.R;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.app.Activity;
+import androidx.annotation.NonNull;
+import android.util.Log;
 import android.content.Context;
+import android.os.Handler;
 
 import android.os.Build;
 import android.os.Vibrator;
@@ -13,13 +16,20 @@ import android.media.AudioAttributes;
 
 public class HapticsAndroid
 {
-	RunnerActivity activity = RunnerActivity.CurrentActivity;
-	Vibrator vibrator = (Vibrator) activity.getSystemService(activity.getApplicationContext().VIBRATOR_SERVICE);
-	AudioAttributes attributes = new AudioAttributes.Builder()
-			                                        .setUsage(AudioAttributes.USAGE_GAME)
-                                                    .setContentType(AudioAttributes.CONTENT_TYPE_UNKNOWN)
-                                                    .setHapticChannelsMuted(false)
-                                                    .build();
+	RunnerActivity activity;
+	Vibrator vibrator;
+	AudioAttributes attributes;
+
+	public void Init()
+	{
+		activity = RunnerActivity.CurrentActivity;
+		vibrator = (Vibrator) activity.getSystemService(activity.getApplicationContext().VIBRATOR_SERVICE);
+		attributes = new AudioAttributes.Builder()
+		                                .setUsage(AudioAttributes.USAGE_GAME)
+	                                    .setContentType(AudioAttributes.CONTENT_TYPE_UNKNOWN)
+	                                    .setHapticChannelsMuted(false)
+	                                    .build();
+    }
 
 	public double Vibrate(double duration, double strength)
 	{
