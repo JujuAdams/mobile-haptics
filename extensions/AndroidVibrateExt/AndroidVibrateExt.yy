@@ -21,10 +21,11 @@
   "files": [
     {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","filename":"HapticsAndroid.ext","origname":"","init":"","final":"","kind":4,"uncompress":false,"functions":[
         {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"AndroidVibrateIsSupported","externalName":"GetSupported","kind":4,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"AndroidVibrate","externalName":"Vibrate","kind":4,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[
-            2,
-            2,
-          ],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"AndroidVibrateWeak","externalName":"Weak","kind":4,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"AndroidVibrateStrong","externalName":"Strong","kind":4,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"AndroidVibrateDouble","externalName":"Double","kind":4,"help":"","hidden":false,"returnType":1,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"AndroidVibrateTriple","externalName":"Triple","kind":4,"help":"","hidden":false,"returnType":1,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"AndroidVibrateGetAmplitudeControl","externalName":"GetAmplitudeControl","kind":4,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
       ],"constants":[],"ProxyFiles":[],"copyToTargets":8,"usesRunnerInterface":false,"order":[],},
   ],
   "classname": "",

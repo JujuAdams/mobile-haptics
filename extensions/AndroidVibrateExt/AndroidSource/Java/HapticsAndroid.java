@@ -31,14 +31,41 @@ public class HapticsAndroid
 	                                    .build();
     }
 
-	public double Vibrate(double duration, double strength)
+	public double Weak()
 	{
-		vibrator.vibrate(VibrationEffect.createOneShot((long) duration, (int) Math.floor(255*Math.min(Math.max(strength, 0.0), 1.0))), attributes);
+		vibrator.vibrate(VibrationEffect.createOneShot((long)16.0, 120), attributes);
+		return 1.0;
+	}
+
+	public double Strong()
+	{
+		vibrator.vibrate(VibrationEffect.createOneShot((long)16.0, 255), attributes);
+		return 1.0;
+	}
+
+	public double Double()
+	{
+		long[] timings = {33, 100, 33};
+		int[] amplitudes = {170, 0, 120};
+		vibrator.vibrate(VibrationEffect.createWaveform(timings, amplitudes, -1), attributes);
+		return 1.0;
+	}
+
+	public double Triple()
+	{
+		long[] timings = {33, 60, 33, 60, 33};
+		int[] amplitudes = {150, 0, 175, 0, 200};
+		vibrator.vibrate(VibrationEffect.createWaveform(timings, amplitudes, -1), attributes);
 		return 1.0;
 	}
     
 	public double GetSupported()
 	{
-		return ((android.os.Build.VERSION.SDK_INT >= 26) && vibrator.hasVibrator() && vibrator.hasAmplitudeControl())? 1.0 : 0.0;
+		return ((android.os.Build.VERSION.SDK_INT >= 26) && vibrator.hasVibrator())? 1.0 : 0.0;
+	}
+
+	public double GetAmplitudeControl()
+	{
+		return vibrator.hasAmplitudeControl()? 1.0 : 0.0;
 	}
 }
