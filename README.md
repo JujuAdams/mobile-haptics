@@ -4,8 +4,6 @@
 
 &nbsp;
 
-&nbsp;
-
 - ### [Download the .yymps](https://github.com/JujuAdams/mobile-haptics/releases/)
 - ### Talk about iota on the [Discord server](https://discord.gg/8krYCqr)
 
