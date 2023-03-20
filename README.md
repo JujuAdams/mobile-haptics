@@ -20,4 +20,6 @@ AndroidVibrateWeak()
 AndroidVibrateStrong()
 AndroidVibrateDouble()
 AndroidVibrateTriple()
+AndroidVibrateIsSupported()
+AndroidVibrateGetAmplitudeControl()
 ```
