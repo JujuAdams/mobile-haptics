@@ -5,7 +5,6 @@
 &nbsp;
 
 - ### [Download the .yymps](https://github.com/JujuAdams/mobile-haptics/releases/)
-- ### Talk about this library on the [Discord server](https://discord.gg/8krYCqr)
 
 &nbsp;
 
