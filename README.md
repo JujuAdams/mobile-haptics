@@ -21,5 +21,4 @@ AndroidVibrateStrong()
 AndroidVibrateDouble()
 AndroidVibrateTriple()
 AndroidVibrateIsSupported()
-AndroidVibrateGetAmplitudeControl()
 ```
