@@ -2,4 +2,3 @@
 
 show_debug_message("iOS vibration supported = " + string(iOSVibrateIsSupported()));
 show_debug_message("Android vibration supported = " + string(AndroidVibrateIsSupported()));
-show_debug_message("Android vibration amplitude supported = " + string(AndroidVibrateGetAmplitudeControl()));

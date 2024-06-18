@@ -14,7 +14,7 @@ import android.os.Vibrator;
 import android.os.VibrationEffect;
 import android.media.AudioAttributes;
 
-public class HapticsAndroid
+public class AndroidVibrate
 {
 	RunnerActivity activity;
 	Vibrator vibrator;
@@ -72,11 +72,6 @@ public class HapticsAndroid
     
 	public double GetSupported()
 	{
-		return ((android.os.Build.VERSION.SDK_INT >= 26) && vibrator.hasVibrator())? 1.0 : 0.0;
-	}
-
-	public double GetAmplitudeControl()
-	{
-		return vibrator.hasAmplitudeControl()? 1.0 : 0.0;
+		return ((android.os.Build.VERSION.SDK_INT >= 26) && vibrator.hasVibrator() && vibrator.hasAmplitudeControl())? 1.0 : 0.0;
 	}
 }
