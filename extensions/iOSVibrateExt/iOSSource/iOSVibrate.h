@@ -7,5 +7,6 @@
 -(double)iOSVibrateStrong;
 -(double)iOSVibrateDouble;
 -(double)iOSVibrateTriple;
+-(double)VibrateIsSupported;
 
 @end

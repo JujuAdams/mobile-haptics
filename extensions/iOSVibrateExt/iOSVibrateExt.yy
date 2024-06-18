@@ -25,6 +25,7 @@
         {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"iOSVibrateStrong","externalName":"VibrateStrong","kind":4,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
         {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"iOSVibrateDouble","externalName":"VibrateDouble","kind":4,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
         {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"iOSVibrateTriple","externalName":"VibrateTriple","kind":4,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"iOSVibrateIsSupported","externalName":"VibrateIsSupported","kind":4,"help":"","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
       ],"constants":[],"ProxyFiles":[],"copyToTargets":4,"usesRunnerInterface":false,"order":[
         {"name":"iOSVibrateWeak","path":"extensions/iOSVibrateExt/iOSVibrateExt.yy",},
         {"name":"iOSVibrateStrong","path":"extensions/iOSVibrateExt/iOSVibrateExt.yy",},
@@ -55,7 +56,9 @@
   "hasConvertedCodeInjection": true,
   "ioscodeinjection": "",
   "tvoscodeinjection": "",
-  "iosSystemFrameworkEntries": [],
+  "iosSystemFrameworkEntries": [
+    {"resourceType":"GMExtensionFrameworkEntry","resourceVersion":"1.0","name":"CoreHaptics.framework","weakReference":false,"embed":0,},
+  ],
   "tvosSystemFrameworkEntries": [],
   "iosThirdPartyFrameworkEntries": [],
   "tvosThirdPartyFrameworkEntries": [],
