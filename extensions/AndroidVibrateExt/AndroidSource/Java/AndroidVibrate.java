@@ -35,7 +35,7 @@ public class AndroidVibrate
 
 	public void Init()
 	{
-		Log.i("yoyo", "Welcome to AndroidVibrate by Juju Adams! This is version 1.1.0, 2024-06-18");
+		Log.i("yoyo", "Welcome to AndroidVibrate by Juju Adams! This is version 2.0.0, 2024-06-18");
 		
 		activity = RunnerActivity.CurrentActivity;
 		vibrator = (Vibrator) activity.getSystemService(activity.getApplicationContext().VIBRATOR_SERVICE);

@@ -1,4 +1,4 @@
-<h1 align="center">Mobile Haptics 1.1.0</h1>
+<h1 align="center">Mobile Haptics 2.0.0</h1>
 
 <p align="center">Maximum compatibility mobile haptics implementation for GameMaker 2022 LTS</p>
 

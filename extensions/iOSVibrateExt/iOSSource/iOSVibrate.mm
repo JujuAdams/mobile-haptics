@@ -7,7 +7,7 @@
 
 -(void)Init
 {
-    NSLog(@"Welcome to iOSVibrate by Juju Adams! This is version 1.1.0, 2024-06-18");
+    NSLog(@"Welcome to iOSVibrate by Juju Adams! This is version 2.0.0, 2024-06-18");
 }
 
 -(double)VibrateWeak
