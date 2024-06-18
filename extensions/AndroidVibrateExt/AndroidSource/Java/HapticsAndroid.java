@@ -35,6 +35,8 @@ public class HapticsAndroid
 
 	public void Init()
 	{
+		Log.i("yoyo", "Welcome to AndroidVibrate by Juju Adams! This is version 1.1.0, 2024-06-18");
+		
 		activity = RunnerActivity.CurrentActivity;
 		vibrator = (Vibrator) activity.getSystemService(activity.getApplicationContext().VIBRATOR_SERVICE);
 		attributes = new AudioAttributes.Builder()

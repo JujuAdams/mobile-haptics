@@ -1,6 +1,6 @@
-<h1 align="center">Mobile Haptics 1.0.0</h1>
+<h1 align="center">Mobile Haptics 1.1.0</h1>
 
-<p align="center">Maximum compatibility mobile haptics implementation for GameMaker 2022 LTS by <b>@jujuadams</b></p>
+<p align="center">Maximum compatibility mobile haptics implementation for GameMaker 2022 LTS</p>
 
 &nbsp;
 
@@ -14,6 +14,7 @@ iOSVibrateWeak()
 iOSVibrateStrong()
 iOSVibrateDouble()
 iOSVibrateTriple()
+iOSVibrateIsSupported()
 
 AndroidVibrateWeak()
 AndroidVibrateStrong()
