@@ -17,6 +17,7 @@
   "iosProps": true,
   "tvosProps": false,
   "androidProps": false,
+  "html5Props": false,
   "installdir": "",
   "files": [
     {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","filename":"iOSVibrate.ext","origname":"","init":"","final":"","kind":4,"uncompress":false,"functions":[
@@ -29,9 +30,9 @@
         {"name":"iOSVibrateStrong","path":"extensions/iOSVibrateExt/iOSVibrateExt.yy",},
         {"name":"iOSVibrateDouble","path":"extensions/iOSVibrateExt/iOSVibrateExt.yy",},
         {"name":"iOSVibrateTriple","path":"extensions/iOSVibrateExt/iOSVibrateExt.yy",},
-        {"name":"iOS_Vibrate_Custom","path":"extensions/iOSVibrateExt/iOSVibrateExt.yy",},
       ],},
   ],
+  "HTML5CodeInjection": "",
   "classname": "iOSVibrate",
   "tvosclassname": "",
   "tvosdelegatename": "",
