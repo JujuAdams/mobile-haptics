@@ -4,7 +4,11 @@
 
 &nbsp;
 
-- ### [Download the .yymps](https://github.com/JujuAdams/mobile-haptics/releases/)
+This project is now archived. Please instead use one of the following:
+
+- https://github.com/YoYoGames/GMEXT-MobileUtils/wiki/vibration
+- https://github.com/ww994a/iOS-Haptics
+- https://github.com/YoYoGames/GMEXT-Interhaptics-Main
 
 &nbsp;
 
